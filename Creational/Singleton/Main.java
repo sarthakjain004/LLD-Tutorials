@@ -98,6 +98,7 @@ class JudgeAnalytics{
                 }
             }
         }
+        return judgeAnalytics;
     }
 }
 */
@@ -185,7 +186,7 @@ public class Main {
         // Cleaner Implementation
         // Guarantees one instance
         // provides a way to maintain a global resource.
-        // supports lazy loading so we dont overload system with thread aafety as well.
+        // supports lazy loading so we dont overload system with thread safety as well.
 
         // cons
         // used with paramters and confused with factory pattern.
@@ -194,7 +195,7 @@ public class Main {
         // special cases to avoid race conditions.
         // violates the SRP. single responsiblity principle.
         // first-> single instance, second->the code logic.
-        
+
     }   
 }
 
